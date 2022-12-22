@@ -1,0 +1,42 @@
+.image-ctn {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-ctn:before {
+    content: '';
+    display: block;
+    padding-bottom: 66.66%;
+}
+
+.image-ctn.square:before {
+    padding-bottom: 99%;
+}
+
+.image-ctn .image {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.image-ctn .image.cover img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.image-ctn .image img {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    /* vertical-align: middle; */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+}

@@ -1,0 +1,902 @@
+/*============================
+ [Table of CSS]
+
+1. General
+
+2. Table
+
+3. Bootstrap Classes
+
+4. Header
+
+5.Contents
+
+6. Login
+
+7. Nav tabs
+
+8. Responsive
+
+========================================*/
+
+/*-----------------
+	1. General
+-----------------------*/
+
+/* @import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700'); */
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.875rem;
+	color: #666;
+	background-color: #fafafa;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+
+/*-----------------
+	4. Header
+-----------------------*/
+
+
+.header {
+
+	z-index: 1039;	
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.img-header {
+	position: relative;
+		
+}
+.img-header img{
+	
+  height: auto;
+  width: 100%;
+  bottom: 0px;
+ 
+}
+
+#myVideo {
+  position: absolute;
+ margin-left: auto;
+ margin-right: auto;
+  bottom: 0px;
+  top: 0px;
+  left: -70%;
+  right: -70%;
+  width: 140%;
+  height: 100%;
+  object-fit: cover;
+  min-width: 100%; 
+  min-height: 80%;
+ 
+}
+.grid-container  {
+	position: relative;
+
+	margin: 0px 10px;
+	padding: 0px 0px;
+}
+.col-md-6 .row button:hover{
+	color: blue;
+	 background: yellow;
+	 
+
+}
+
+
+.form-control label {margin-top: 15px;}
+ .row {
+
+margin: 4px;
+}
+.row input {
+	font-weight: bold;
+}
+.row input:hover ,.col-md-6 .row a:hover{
+	color: blue;
+	 background: yellow;
+	 
+
+}
+.content2 {
+  position: fixed;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 98%;
+  margin: auto;
+  left: 0;
+  right: 0;
+
+}
+h2 {position:relative;
+margin: auto;
+top: 52px;
+left: 282px;
+color: white;
+
+}
+
+#myBtn {
+	align-items: center;
+  width:80px;
+  font-size: 13px;
+  padding: 5px;
+  border: 2px solid white;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.loginbtn button:hover{ background: #ddd;
+  color: black;}
+.anh-nen {
+	
+	
+ 
+ 
+}
+.anh-nen-2 {
+	right: 700px;
+	width: 30px;
+	height: 30px;
+  position: absolute;
+  bottom: 10px;
+}
+
+
+.anh-nen-1{
+	right: 735px;
+	width: 30px;
+	height: 30px;
+  position: absolute;
+ bottom: 10px;
+}
+.welcome{
+	right: 490px;
+	width: auto;
+	height: 40px;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+ 
+	
+}
+
+
+.text h4{ 
+position: absolute;
+
+margin-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+ font-weight: bold;
+ color: white;
+ 
+
+}
+hr {
+  border: 3px solid #ff8000;
+  bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  
+  padding-bottom: 0px;
+}
+
+
+.content {
+	
+}
+.logo {
+	align-items: center;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+}
+.logo span {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+.header .navbar-nav .badge {
+	position: absolute;
+	right: 7px;
+	top: 4px;
+}
+.header .dropdown-menu > li > a {
+	position: relative;
+}
+.header .dropdown-toggle:after {
+	display: none;
+}
+.header .has-arrow .dropdown-toggle:after {
+	display: inline-block;
+}
+.page-title-box {
+	border-radius: 0;
+	height: 50px;
+	margin-bottom: 0;
+	padding: 14px 20px;
+}
+.page-title-box h3 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0;
+}
+.user-menu {
+	margin: 0;
+	position: relative;
+	z-index: 99;
+}
+.user-menu.nav > li > a {
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+	padding: 0 15px;
+	height: 50px;
+}
+.user-menu.nav > li > a:hover,
+.user-menu.nav > li > a:focus {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.user-img {
+	display: inline-block;
+	position: relative;
+}
+.header .user-img img {
+	width: 24px;
+}
+.user-img .status {
+	border: 2px solid #fff;
+	bottom: 0;
+	height: 10px;
+	position: absolute;
+	right: 0;
+	width: 10px;
+}
+.user-menu .user-img .status {
+	bottom: 10px;
+}
+.user-menu .dropdown-menu {
+	min-width: 136px;
+}
+.user-menu .bg-primary {
+	background-color: #009efb !important;
+}
+.status {
+	background-color: #ccc;
+	border-radius: 50%;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+}
+.status.online {
+	background-color: #55ce63;
+}
+.status.offline {
+	background-color: #f62d51;
+}
+.status.away {
+	background-color: #faa937;
+}
+
+/*-----------------
+	5. Content
+-----------------------*/
+
+.page-wrapper {
+	left: 0;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-top: 100px;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.page-wrapper > .content {
+	padding: 100px;
+	margin: auto;
+}
+
+.col-md-6{
+	margin: auto;
+}
+
+.col-md-6 .btn{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+	
+	;
+}
+
+.a{
+	margin: auto;
+}
+
+.col-md-10{
+	margin: auto;
+}
+/*-----------------
+	6. Login
+-----------------------*/
+
+.account-page {
+	display: table-row;
+	height: 100%;
+	padding: 40px 0;
+}
+.account-title {
+	font-size: 32px;
+	font-weight: normal;
+	margin: 0 0 40px;
+	text-align: center;
+}
+.account-wrapper {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	padding: 30px;
+	width: 100%;
+}
+.account-center {
+	display: table-cell;
+	vertical-align: middle;
+}
+.account-box {
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+	margin: 0 auto;
+	padding: 20px;
+	width: 400px;
+}
+.account-logo {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.account-box .form-group {
+	margin-bottom: 20px;
+}
+.account-box a {
+	color: #333;
+	font-size: 14px;
+}
+.account-box a:hover {
+	color: #009efb;
+}
+.account-box .form-control {
+	border: 1px solid #eaeaea;
+	border-radius: 0;
+	box-shadow: inherit;
+	font-size: 14px;
+	height: 40px;
+}
+.account-box textarea.form-control {
+	height: 130px;
+}
+.account-box label {
+	color: #323232;
+	font-size: 14px;
+	font-weight: normal;
+}
+.account-logo img {
+	max-height: 60px;
+	width: auto;
+}
+.account-box .account-btn {
+	border-radius: 50px;
+	font-size: 16px;
+	min-width: 150px;
+	padding: 8px 30px;
+	text-transform: uppercase;
+}
+.nav{
+	 font-weight: bold;
+}
+.nav-link {
+	color: white;
+	
+}
+.nav :hover {
+
+  text-decoration: underline;
+ color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+}
+h1,
+.h1 {
+	font-size: 2.25rem;
+}
+h2,
+.h2 {
+	font-size: 1.875rem;
+}
+h3,
+.h3 {
+	font-size: 1.5rem;
+}
+h4,
+.h4 {
+	font-size: 1.125rem;
+}
+h5,
+.h5 {
+	font-size: 0.875rem;
+}
+h6,
+.h6 {
+	font-size: 0.75rem;
+}
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: #009ce7;
+	outline: none;
+}
+.form-control {
+	border-radius: 0;
+	box-shadow: none;
+	padding: 0.469rem 0.75rem;
+	border-color: #eaeaea;
+	font-size: 14px;
+	min-height: 40px;
+}
+.form-control:focus {
+	border-color: #009efb;
+	box-shadow: none;
+	outline: 0 none;
+}
+a {
+	color: #009ce7;
+}
+input,
+button,
+a {
+	transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+}
+input,
+button {
+	outline: none;
+}
+input[type="file"] {
+	height: auto;
+	padding: 6px 0.75rem;
+}
+input[type=text],
+input[type=password] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+textarea.form-control {
+	resize: vertical;
+}
+.navbar-nav > li {
+	float: left;
+}
+.form-group {
+	margin-bottom: 20px;
+}
+.display-block {
+	display: block;
+}
+.btn.rounded {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.btn.focus,
+.btn:focus {
+	box-shadow: inherit !important;
+}
+.list-group-item {
+	border: 1px solid #eaeaea;
+}
+
+/*-----------------
+	2. Table
+-----------------------*/
+
+.table {
+	color: #000;
+	border: 1px solid #f0f0f0;
+}
+.table.table-white {
+	background-color: #fff;
+}
+.table > tbody > tr > td {
+	font-weight: 300;
+}
+.table-striped > tbody > tr:nth-of-type(2n + 1) {
+	background-color: #f6f6f6;
+}
+table.table td .avatar {
+	margin: 0 5px 0 0;
+}
+table.table td h2 {
+	display: inline-block;
+	font-size: inherit;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+table.table td h2 a {
+	color: #757575;
+}
+table.table td h2 a:hover {
+	color: #009efb;
+}
+table.table td h2 span {
+	color: #9e9e9e;
+	display: block;
+	font-size: 12px;
+	margin-top: 3px;
+}
+
+/*-----------------
+	3. Bootstrap Classes
+-----------------------*/
+
+.btn-white {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #333;
+}
+.rounded,
+.circle {
+	border-radius: 500px;
+}
+.bg-primary,
+.badge-primary {
+	background-color: #009efb !important;
+}
+.bg-success,
+.badge-success {
+	background-color: #55ce63 !important;
+}
+.bg-info,
+.badge-info {
+	background-color: #009efb !important;
+}
+.bg-warning,
+.badge-warning {
+	background-color: #ffbc34 !important;
+}
+.bg-danger,
+.badge-danger {
+	background-color: #f62d51 !important;
+}
+.bg-white {
+	background-color: #fff;
+}
+.text-primary,
+.dropdown-menu > li > a.text-primary {
+	color: #009efb !important;
+}
+.text-success,
+.dropdown-menu > li > a.text-success {
+	color: #55ce63;
+}
+.text-danger,
+.dropdown-menu > li > a.text-danger {
+	color: #f62d51;
+}
+.text-info,
+.dropdown-menu > li > a.text-info {
+	color: #009efb;
+}
+.text-warning,
+.dropdown-menu > li > a.text-warning {
+	color: #ffbc34;
+}
+.text-purple,
+.dropdown-menu > li > a.text-purple {
+	color: #7460ee;
+}
+.btn-primary {
+	border-color: transparent;
+	background-color: #DD0000;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+	background-color: #DD0000;
+	border: 1px solid #DD0000;
+	color: #fff;
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+	background-color: #DD0000;
+	border: 1px solid #DD0000;
+}
+.btn-primary.active:not(:disabled):not(.disabled),
+.btn-primary:active:not(:disabled):not(.disabled),
+.show > .btn-primary.dropdown-toggle {
+	background-color: #DD0000;
+	border-color: #DD0000;
+	color: #fff;
+}
+.btn-outline-primary {
+	border-color: #009efb;
+	color: #009efb;
+}
+.btn-outline-primary:hover {
+	background-color: #009efb;
+	border-color: #009efb;
+	color: #fff;
+}
+.btn-outline-primary.active:not(:disabled):not(.disabled),
+.btn-outline-primary:active:not(:disabled):not(.disabled),
+.show > .btn-outline-primary.dropdown-toggle {
+	background-color: #009efb;
+	border-color: #009efb;
+	color: #fff;
+}
+.btn-success {
+	background-color: #55ce63;
+	border: 1px solid #55ce63
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.active,
+.btn-success:active,
+.open > .dropdown-toggle.btn-success {
+	background: #4ab657;
+	border: 1px solid #4ab657
+}
+.btn-success.active.focus,
+.btn-success.active:focus,
+.btn-success.active:hover,
+.btn-success.focus:active,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.open > .dropdown-toggle.btn-success.focus,
+.open > .dropdown-toggle.btn-success:focus,
+.open > .dropdown-toggle.btn-success:hover {
+	background: #4ab657;
+	border: 1px solid #4ab657
+}
+.btn-info {
+	background-color: #009efb;
+	border: 1px solid #009efb
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.active,
+.btn-info:active,
+.open > .dropdown-toggle.btn-info {
+	background-color: #028ee1;
+	border: 1px solid #028ee1
+}
+.btn-info.active.focus,
+.btn-info.active:focus,
+.btn-info.active:hover,
+.btn-info.focus:active,
+.btn-info:active:focus,
+.btn-info:active:hover,
+.open > .dropdown-toggle.btn-info.focus,
+.open > .dropdown-toggle.btn-info:focus,
+.open > .dropdown-toggle.btn-info:hover {
+	background-color: #028ee1;
+	border: 1px solid #028ee1
+}
+.btn-warning {
+	background: #ffbc34;
+	border: 1px solid #ffbc34
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.active,
+.btn-warning:active,
+.open > .dropdown-toggle.btn-warning {
+	background: #e9ab2e;
+	border: 1px solid #e9ab2e
+}
+.btn-warning.active.focus,
+.btn-warning.active:focus,
+.btn-warning.active:hover,
+.btn-warning.focus:active,
+.btn-warning:active:focus,
+.btn-warning:active:hover,
+.open > .dropdown-toggle.btn-warning.focus,
+.open > .dropdown-toggle.btn-warning:focus,
+.open > .dropdown-toggle.btn-warning:hover {
+	background: #e9ab2e;
+	border: 1px solid #e9ab2e
+}
+.btn-danger {
+	background: #f62d51;
+	border: 1px solid #f62d51
+}
+.btn-danger:hover,
+.btn-danger:focus {
+	background-color: #e6294b;
+	border: 1px solid #e6294b
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+	background-color: #009efb;
+	border-color: #009efb;
+}
+.pagination > li > a,
+.pagination > li > span {
+	color: #009efb;
+	padding: .5rem .75rem !important;
+}
+.page-item.active .page-link {
+	background-color: #009efb;
+	border-color: #009efb;
+}
+.dropdown-menu {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	transform-origin: left top 0;
+	box-shadow: inherit;
+	background-color: #fff;
+}
+.navbar-nav .open .dropdown-menu {
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.btn-group-xs > .btn,
+.btn-xs {
+	min-height: 22px;
+	min-width: 22px;
+}
+.dropdown-menu {
+	font-size: 13px;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+	box-shadow: none;
+}
+.btn-link {
+	color: #333;
+}
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.card {
+	margin-bottom: 30px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	border: 0;
+}
+.card-title {
+	margin-bottom: 1.125rem;
+}
+.dropdown-action .dropdown-toggle:after {
+	display: none;
+}
+.badge.badge-pill {
+	border-radius: 10rem;
+}
+.badge-primary {
+	color: #fff;
+}
+.btn.btn-rounded {
+	border-radius: 50px;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+	background-color: #eee;
+	border-color: transparent;
+}
+.nav-tabs .nav-link {
+	border-radius: 0;
+}
+.table.dataTable {
+	border-collapse: collapse !important;
+}
+textarea.form-control {
+	height: auto;
+}
+.progress-example .progress {
+	margin-bottom: 1.5rem;
+}
+.progress-xs {
+	height: 4px;
+}
+.progress-sm {
+	height: 15px;
+}
+.progress.progress-sm {
+	height: 6px;
+}
+.progress.progress-md {
+	height: 8px;
+}
+.progress.progress-lg {
+	height: 18px;
+}
+.form-control.form-control-sm {
+	padding: 0.25rem 0.5rem;
+}
+.card .card-header {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 0 none;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 15px;
+}
+.card .card-header .card-title {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0;
+	padding: 5px 0;
+}
+.table h5 {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+.table h5 + p {
+	color: #9e9e9e;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 0;
+}
+.page-link:focus {
+    box-shadow: unset;
+}
+

@@ -1,0 +1,71 @@
+{
+  "nvpt": {
+    "id": 1
+  },
+  "lichDK": {
+    "ten": "Thang3_Tuan-4_Nam-2021",
+    "moTa": "",
+    "ngayLVTrenLich": [
+      {
+        "ngayLV": {
+          "id": 1,
+          "ten": "Thứ 2",
+          "moTa": "Thứ 2"
+        },
+        "caLV": {
+          "id": 1,
+          "ten": "Sáng",
+          "moTa": "8h20 - 15h30"
+        }
+      },
+      {
+        "ngayLV": {
+          "id": 2,
+          "ten": "Thứ 3",
+          "moTa": "Thứ 3"
+        },
+        "caLV": ""
+      },
+      {
+        "ngayLV": {
+          "id": 3,
+          "ten": "Thứ 4",
+          "moTa": "Thứ 4"
+        },
+        "caLV": ""
+      },
+      {
+        "ngayLV": {
+          "id": 4,
+          "ten": "Thứ 5",
+          "moTa": "Thứ 5"
+        },
+        "caLV": ""
+      },
+      {
+        "ngayLV": {
+          "id": 5,
+          "ten": "Thứ 6",
+          "moTa": "Thứ 6"
+        },
+        "caLV": ""
+      },
+      {
+        "ngayLV": {
+          "id": 6,
+          "ten": "Thứ 7",
+          "moTa": "Thứ 7"
+        },
+        "caLV": ""
+      },
+      {
+        "ngayLV": {
+          "id": 7,
+          "ten": "Chủ Nhật",
+          "moTa": "Chủ Nhật"
+        },
+        "caLV": ""
+      }
+    ]
+  }
+}

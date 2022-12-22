@@ -1,0 +1,32 @@
+{
+  "listNVPT": [
+    {
+      "id": "1",
+      "ten": "Vu Hong Hoa",
+      "ngaySinh": "15/02/1995",
+      "ngayVaoLam": "10/01/2020",
+      "chucVu": "Thu Ngân"
+    },
+    {
+      "id": "2",
+      "ten": "Le Minh Hoa",
+      "ngaySinh": "15/06/1997",
+      "ngayVaoLam": "15/06/2020",
+      "chucVu": "Phụ bếp"
+    },
+    {
+      "id": "3",
+      "ten": "Dinh Anh Khoa",
+      "ngaySinh": "12/01/1996",
+      "ngayVaoLam": "15/12/2020",
+      "chucVu": "Bồi bàn"
+    },
+    {
+      "id": "4",
+      "ten": "Bui Tuan Khoa",
+      "ngaySinh": "30/01/1998",
+      "ngayVaoLam": "15/03/2021",
+      "chucVu": "Phụ bếp"
+    }
+  ]
+}

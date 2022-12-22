@@ -1,0 +1,39 @@
+{
+  "ngayLV": [
+    {
+      "id": 1,
+      "ten": "Thứ 2",
+      "moTa": "Thứ 2"
+    },
+    {
+      "id": 2,
+      "ten": "Thứ 3",
+      "moTa": "Thứ 3"
+    },
+    {
+      "id": 3,
+      "ten": "Thứ 4",
+      "moTa": "Thứ 4"
+    },
+    {
+      "id": 4,
+      "ten": "Thứ 5",
+      "moTa": "Thứ 5"
+    },
+    {
+      "id": 5,
+      "ten": "Thứ 6",
+      "moTa": "Thứ 6"
+    },
+    {
+      "id": 6,
+      "ten": "Thứ 7",
+      "moTa": "Thứ 7"
+    },
+    {
+      "id": 7,
+      "ten": "Chủ Nhật",
+      "moTa": "Chủ Nhật"
+    }
+  ]
+}

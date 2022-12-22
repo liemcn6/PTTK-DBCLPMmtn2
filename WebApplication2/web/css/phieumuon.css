@@ -1,0 +1,12 @@
+.information_Reader{
+    margin: auto;
+    padding: 10px;
+    width: 70vw;
+    position: relative;
+    height: 400px;
+}
+.quayve{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

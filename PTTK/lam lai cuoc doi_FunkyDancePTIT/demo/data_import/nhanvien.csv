@@ -1,0 +1,5 @@
+﻿id,nhaHangId,ten,diaChi,sdt,ngayVaoLam,ngayThoiLam,email,admin
+1,1,Vu Thi Hanh,Thai Ha,323043562,15/06/2019,,vuthihanh.ptit@gmail.com,0
+2,1,Bui Thi Khanh Linh,Nhan Chinh,323043662,15/12/2020,,buikhanhlinh.ptit@gmail.com,0
+3,2,Le Duy Khanh,Le Trong Tan,323073562,16/12/2021,,leduykhanh.ptit@gmail.com,0
+4,3,Le Chi Linh,Nguyen Trai,323043562,15/06/2022,,chillin.ptit@gmail.com,0

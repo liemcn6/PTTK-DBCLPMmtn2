@@ -1,0 +1,26 @@
+
+.container_scanner{
+    width: 100vw;
+    height: 90vh;
+    background: #EAEAEA;
+    display: flex;
+    justify-content: center;
+}
+.input_area{
+    margin-top: 20vh;
+    padding: 20px;
+    background: #9C9C9C;
+    width: 30vw;
+    height: 25vh;
+    border-radius: 6px;
+}
+.form_maSV{
+    position: relative;
+    margin-top: 12px;
+    height: 150px;
+}
+.float-left{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

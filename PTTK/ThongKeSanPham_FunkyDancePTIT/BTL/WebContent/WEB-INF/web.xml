@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>BTL</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>GDDangNhap.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+     <welcome-file>doDangNhap.jsp</welcome-file>
+    <welcome-file>GDTKSanPham.jsp</welcome-file>
+    <welcome-file>GDChiTietHoaDon.jsp</welcome-file>
+    <welcome-file>GDChonLoaiTK.jsp</welcome-file>
+    <welcome-file>GDThongKeSP.jsp</welcome-file>
+    <welcome-file>GDChonThoiGianThongKe.jsp</welcome-file>
+     <welcome-file>GDDangNhap.jsp</welcome-file>
+      <welcome-file>GDTK.jsp</welcome-file>
+       <welcome-file>GDQuanLi.jsp</welcome-file>
+        <welcome-file>header.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
